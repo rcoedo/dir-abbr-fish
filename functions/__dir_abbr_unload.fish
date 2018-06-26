@@ -1,7 +1,6 @@
 function __dir_abbr_unload
-    for line in $dir_abbreviations
-        set -l params (string split "=" $line);
-        abbr -e $params[1] > /dev/null
+    if test ! -z "$dir_abbr_restore"
+        set -g fish_user_abbreviations $dir_abbr_restore
+        set -e dir_abbr_restore
     end
-    set -e dir_abbreviations
 end

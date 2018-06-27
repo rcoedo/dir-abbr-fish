@@ -8,3 +8,5 @@ function __dir_abbr_handler --on-variable PWD
         end
     end
 end
+
+__dir_abbr_handler

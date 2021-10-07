@@ -7,7 +7,7 @@ Load and unload a `.abbr` file when entering and leaving directories.
 Install as a fisherman plugin
 
 ```
-fisher add rcoedo/dir-abbr-fish
+fisher install rcoedo/dir-abbr-fish
 ```
 
 ## Functions
